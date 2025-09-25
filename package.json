@@ -1,0 +1,21 @@
+{
+  "name": "thinkboard",
+  "version": "1.0.0",
+  "description": "A MERN stack notes site.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranav-7262/mern-ThinkBoard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pranav-7262/mern-ThinkBoard/issues"
+  },
+  "homepage": "https://github.com/Pranav-7262/mern-ThinkBoard#readme"
+}
