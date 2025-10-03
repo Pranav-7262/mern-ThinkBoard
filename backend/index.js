@@ -16,8 +16,6 @@ const __dirname = path.dirname(__filename);
 // Create express app
 const app = express();
 const PORT = process.env.PORT || 3000;
-
-// Middleware
 if (process.env.NODE_ENV !== "production") {
   app.use(
     cors({
